@@ -1,7 +1,9 @@
 # Clean Vimscript
 
-Yes, you read right: this is *clean vimscript*.
-"But isn't vimscript a mess?" you may ask.
+A collection of notes on how to write clean and idiomatic vimscript.
+
+This used to be a collection of mental notes.
+Until I decided to write them down.
 
 ## Best Practices
 
