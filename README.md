@@ -19,7 +19,7 @@ users* on the system. Even with only one user, changes in `$VIMRUNTIME` will
 usually not be versioned. They will be hard to track, hard to find and create
 behavior that cannot be reproduced on other (clean) machines.
 
-### Put your vimrc below .vim
+### Put vimrc below .vim
 
 User configuration should be in a directory `.vim` or `_vimfiles` below your
 `$HOME` directory.  This goes first and foremost for the `vimrc` file.
@@ -32,7 +32,7 @@ changes and clone your configuration to other machines.
 See `:help vimfiles` for places to put the configuration and `:help
 xdg-vimrc`for an XDG compliant way to do so.
 
-### Put your tweaks in after
+### Put tweaks in after
 
 Changes from the global default runtime files should be in
 `$HOME/.vim/after/<somer_dir>/<some_file>`. 
@@ -46,7 +46,7 @@ According to `:help vimfiles':
 
 > In the "after" directory in your home directory.  This is for personal preferences to overrule or add to the distributed defaults or system-wide settings (rarely needed).
 
-The "rarely needed" seems somewhat ill advised.
+The "rarely needed" seems to be a huge understatement.
 
 ### Use :nnoremap by default
 
