@@ -1,6 +1,6 @@
 # Clean Vimscript
 
-A collection of notes on how to write clean and idiomatic vimscript.
+A collection of notes on how to write clean and idiomatic Vimscript.
 
 This used to be a collection of mental notes.
 Until I decided to write them down.
@@ -80,3 +80,16 @@ good reason not to.
 Providing `-bar` will allow commands to be chained using the `|` or `<bar>`
 operators. This is what you'd expect from any command. Exceptions are commands
 that accept a variable number of arguments.
+
+## Debugging
+
+You wrote some Vimscript but it's not working yet.
+This section covers some techniques to narrow down the bug.
+
+### Is Vim broken or is it the config?
+
+Retry whatever it is that's not working with `vim -N -u NONE` to start Vim without any configuration.
+You may `:source` your configuration files one by one until you can reproduce your issue.
+
+A related technique is to start `vim --clean` for default configuration.
+
