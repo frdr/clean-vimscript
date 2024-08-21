@@ -93,3 +93,9 @@ You may `:source` your configuration files one by one until you can reproduce yo
 
 A related technique is to start `vim --clean` for default configuration.
 
+### Run a linter
+
+There's the [vint][vint] linter for vimscript.
+Run it on your code and fix any issues that crop up.
+
+  [vint]: https://github.com/Vimjas/vint
